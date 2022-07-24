@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="Stylesheet" href="" Type="text/css" MEDIA="screen">
-    
+
     <meta name="author" content="Dante Castelán Carpinteyro">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form>
+        <label for="Nombre">Nombre(s):</label><br>
+        <input name="Nombre" type="text" required="" placeholder="Nombre*"><br><br>
+
+        <label for="Apellidos">Apellidos:</label><br>
+        <input name="Apellidos" type="text" required="" placeholder="Apellidos*"><br><br>
+
+        <label for="e-Mail">Dirección de correo electrónico:</label><br>
+        <input name="e-Mail" type="email" required="" placeholder="Correo electrónico*"><br><br>
+
+        <label for="Teléfono">Número telefónico:</label><br>
+        <input name="Teléfono" type="text" placeholder="Teléfono"><br><br>
+
+        <label for="sexo">Sexo</label><br>
+        <select name="sexo" required="">
+            <option value="H">Hombre</option>
+            <option value="M">Mujer</option>
+        </select><br><br>
+
+        <label for="nacimiento">Fecha de nacimiento</label><br>
+        <input name="nacimiento" type="date" placeholder="Fecha"><br><br>
+
+        <label for="Dirección">Dirección:</label><br>
+        <input name="Dirección" type="address" placeholder="Dirección"><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>

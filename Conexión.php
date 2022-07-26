@@ -1,6 +1,6 @@
 <?php
     $servername = "localhost";
-    $database = "life";
+    $database = $dbname = "life";
     $username = "root";
     $password = "";
     // Create connection
@@ -10,5 +10,5 @@
         die("Connection failed: " . mysqli_connect_error());
     }
     echo "Connected successfully";
-    mysqli_close($conn);
+    
 ?>

@@ -10,6 +10,7 @@
     de la marca: <?php echo $_POST["Marca"]; ?><br>
     con un costo de: $<?php echo $_POST["Precio"]; ?><br>
     e identificador: <?php echo $_POST["ID"]; ?><br>
+    
     <?php
     $ID = $_POST['ID'];
     $Producto = $_POST['Producto'];
